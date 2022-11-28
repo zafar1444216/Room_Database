@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    android:elevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/cardView1"
+        android:layout_width="403dp"
+        android:layout_height="141dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingBottom="20dp">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/simpleImageView"-->
+        <!--            android:layout_width="40dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_gravity="center" />-->
+
+        <LinearLayout
+            android:id="@+id/cardView"
+            android:layout_width="337dp"
+            android:layout_height="123dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Emailid"
+                android:letterSpacing="0.1"
+                android:paddingLeft="2sp"
+                android:textSize="20dp"
+                 />
+
+            <TextView
+                android:id="@+id/tvText1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Username"
+                android:layout_gravity="center"
+                android:letterSpacing="0.1"
+                android:paddingLeft="2sp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="password"
+                android:textSize="20dp"
+                android:paddingLeft="2sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
